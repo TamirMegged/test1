@@ -1,0 +1,31 @@
+section {
+    display: flex;
+    margin-top: 10px;
+}
+
+form {
+    margin: 20px;
+    flex-grow: 4;
+}
+
+#drawArea {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+#canvas {
+    border: 2px solid black;
+    background-color: white;
+}
+
+input {
+    display: block;
+    width: 200px;
+}
+
+.alert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
