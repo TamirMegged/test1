@@ -5,11 +5,11 @@ section {
 
 form {
     margin: 20px;
-    flex-grow: 4;
+    flex-grow: 1;
 }
 
 #drawArea {
-    flex-grow: 1;
+    width: 500px;
     margin: 20px;
 }
 
